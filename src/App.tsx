@@ -3,6 +3,7 @@ import { SearchBar } from "./components/SearchBar";
 import { PDFList } from "./components/PDFList";
 import { PDFReader } from "./components/PDFReader";
 import { usePDFData } from "./hooks/usePDFData";
+import "./App.css";
 
 export interface APIResponse {
   name: string;
